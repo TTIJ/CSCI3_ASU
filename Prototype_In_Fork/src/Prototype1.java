@@ -2,8 +2,8 @@ import java.util.Scanner;
 public class Prototype1 {
    public static void main(String[] args) throws Exception
    {
-    int passwordLength=8, upChars=0, lowChars=0;
-    int special=0, digits=0;
+    int passwordLength=8, Caps=0, lower=0;
+    int special=0, num=0;
     char ch;
     Scanner s = new Scanner(System.in);
     
@@ -22,16 +22,16 @@ public class Prototype1 {
          {
             ch = password.charAt(i);
             if(Character.isUpperCase(ch))
-               upChars = 1;
+               Caps = 1;
             else if(Character.isLowerCase(ch))
-               lowChars = 1;
+               lower = 1;
             else if(Character.isDigit(ch))
-               digits = 1;
+               num = 1;
             else
                special = 1;
          }
       }
-      if(upChars==1 && lowChars==1 && digits==1 && special==1)
+      if(Caps==1 && lower==1 && num==1 && special==1)
          System.out.println("\nThe Password is Strong.");
       else
          System.out.println("\nThe Password is Weak.");
