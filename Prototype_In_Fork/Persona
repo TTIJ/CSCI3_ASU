@@ -1,0 +1,5 @@
+Persona: The persona of the users that will use our product are people aroung the ages of 21 to 40 who use have online accounts that they want to have protected with a good password.
+Scenario: If someone aroung the age of 21 has a bank account and they don't want to have their account hacked into because they have a passoerd that is easy to guess. They would use our product which would analyze our the password that that they put in and it will tell them if it is stong enough or not.
+User Story: As an adult with a bank account, I want to be able to make a password that is strong enough to protect my information.
+Feature List: A feature that will be in the product will be
+Menu: Will display example of what could be used in a password to be considered strong. 
