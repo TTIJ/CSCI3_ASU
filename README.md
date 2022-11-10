@@ -5,3 +5,5 @@ I create a fork of your repository, which is inside my account. I add this line 
 Scrum meeting time lenght was 15 minutes. 
 
 https://www.figma.com/proto/QkhLqRDiGOFjle8Kkn0e9D/Prototype?node-id=2%3A24&scaling=min-zoom&page-id=0%3A1
+
+Project 3 is under Prototype_In_Fork. Under 
